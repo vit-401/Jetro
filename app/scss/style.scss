@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: green;
+  margin: 0;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+}
+
+.box {
+  background-color: red;
+  width: 200px;
+  height: 400px;
+  
+
+  &-1 {
+    width: 50%;
+    height: 10%;
+    background: blue;
+  }
+
+  &-2 {
+    width: 50%;
+    height: 10%;
+    background: yellow;
+  }
+
+  &-3 {
+    width: 50%;
+    height: 10%;
+    background: tomato;
+  }
+
+}
+
+// .chengeColor{
+//   background-color: #f432fc;
+// }
